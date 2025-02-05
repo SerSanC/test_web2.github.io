@@ -1,0 +1,33 @@
+/* styles.css */
+body {
+    margin: 50;
+    font-family: Arial, sans-serif;
+}
+
+.social-bar {
+    padding: 10px;
+    text-align: right;
+    background-color:  #806200;
+
+}
+
+.social-bar a {
+    color:white;
+    margin: 40 10px;
+    font-size: 40px;
+    text-decoration: none;
+    transition: color 0.3s;
+
+}
+
+h10 {
+    text-align:right;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color:rgba(240, 248, 255, 0.329); 
+ 
+
+}
+.social-bar a:hover {
+    color: #080808; /* Cambia el color al pasar el RATON */
+}

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="stylesheet" href="styles.css">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>GOOD FOOD</title>
+
+
+  <!-- Vinculando Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- AQUI CREO UN ESTILO SOLO PARA H2 PORQUE EN EL CSS NO ME HACE CASO -->
+
+  <style>
+    h2 {
+      color: beige;
+      font-weight: bold;
+      text-align: center;
+      background-color: black;
+    }
+
+    h1 {
+      color: beige;
+      font-weight: bold;
+      text-align: center;
+      font-family: serif;
+      font-size: 100px;
+    }
+
+
+    h3 {
+      color: rgb(253, 253, 253);
+      text-align: center;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 50px;
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+  <header>
+    <img src="assets/images/goodfood.png" alt="assets/images/goodfood">
+
+    <h3>Tu guía para una vida más sana y equilibrada</h3>
+
+      <!--AQUI PONER SEPARACIÓN ENTRE PARRAFOS -->
+
+      <div class="p-4 g-col-6"></div> 
+
+    </div>
+    
+
+
+  </header>
+
+    <!-- Enlace para los iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="styles02.css">
+
+<div class="social-bar">
+  <h10>TAMBIÉN NOS PODRÁS ENCONTRAR EN NUESTRAS REDES SOCIALES:
+  <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+</div>
+</h10>  
+
+  <nav>
+
+
+  <!-- filas y columnas para poner apartados -->
+
+    <div class="row">
+      <div class="col">
+        <a href="#beneficios">Beneficios</a>
+      </div>
+      <div class="col">
+        <a href="#alimentos">Alimentos</a>
+      </div>
+      <div class="col">
+      <a href="#consejos">Consejos</a>
+      </div>
+      <div class="col">
+        <a href="#recetas">Recetas</a>
+      </div>
+      <div class="col">
+      <a href="#plan de ejercicios">Ejercicios</a>
+      </div>
+      <div class="col">
+      <form class="d-flex" role="buscador">
+        <input class="width 20 px" type="buscador" placeholder="buscador" aria-label="buscador">
+        <button class="btn btn-outline-success" type="submit">buscar</button>
+      </form>
+      </div>
+
+    </div>
+
+
+
+
+
+  </nav>
+
+  <!-- CARRUSEL DE FOTOS-->
+
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/images/IMAGE03.JPG" class="d-block w-100" alt="assets/images/IMAGE03.JPG">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/IMAGE02.JPG" class="d-block w-100" alt="assets/images/IMAGE02.JPG">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/IMAGE01.JPG" class="d-block w-100" alt="assets/images/IMAGE01.JPG">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!--PARTE PRINCIPAL DE LA PAGINA-->
+
+  <main>
+    <section id="beneficios">
+      <h2>BENEFICIOS DE UNA ALIMENTACIÓN SANA</h2>
+      <p>Una alimentación saludable es fundamental para mantener un buen estado de salud. Entre sus beneficios se
+        encuentran:</p>
+      <ul>
+        <li>Mejora el sistema inmunológico.</li>
+        <li>Ayuda a mantener un peso adecuado.</li>
+        <li>Reduce el riesgo de enfermedades crónicas como diabetes y enfermedades cardíacas.</li>
+        <li>Mejora la energía y el estado de ánimo.</li>
+      </ul>
+      <img src="assets/images/IMAGE04.JPG" alt="assets/images/IMAGE04.JPG">
+    </section>
+
+    <section id="alimentos">
+      <h2>ALIMENTOS RECOMENDADOS</h2>
+      <p>Incluye estos alimentos en tu dieta para mejorar tu salud:</p>
+      <ul>
+        <li><strong>Frutas y verduras:</strong> Ricas en vitaminas, minerales y fibra.</li>
+        <li><strong>Cereales integrales:</strong> Aportan energía y fibra.</li>
+        <li><strong>Proteínas magras:</strong> Como pescado, pollo, legumbres y frutos secos.</li>
+        <li><strong>Grasas saludables:</strong> Aguacate, aceite de oliva y nueces.</li>
+      </ul>
+      <img src="assets/images/IMAGE05.JPG" alt="assets/images/IMAGE05.JPG">
+    </section>
+
+    <section id="consejos">
+      <h2>CONSEJOS PRÁCTICOS</h2>
+      <div class="tips">
+        <p>Aquí tienes algunos consejos para mantener una alimentación saludable:</p>
+        <ul>
+       
+          <li>PLanifica tu dieta. <a href="https://www.clara.es/bienestar/alimentacion/menu-semanal-saludable_12800">ver ejemplos</a>
+          </li>
+          <li>Evita los alimentos procesados y altos en azúcar. <a href="https://www.lifeder.com/alimentos-procesados/#:~:text=Ejemplos%20de%20alimentos%20procesados%201%20Margarinas.%20Cargan%20una,7%20Nuggets.%20...%208%20Hamburguesas.%20...%20M%C3%A1s%20elementos">ver ejemplos</a>
+          </li>
+          <li>Bebe suficiente agua durante el día.</li>
+          <li>Controla las porciones para evitar excesos.</li>
+          <li>Controla las porciones de comida. <a href="https://www.sabervivirtv.com/nutricion/como-calcular-racion-comer-cada-alimento-no-engordar_4052">ver como</a>
+          </li>
+        </ul>
+      </div>
+
+      <img src="assets/images/IMAGE06.JPG" alt="assets/images/IMAGE06.JPG">
+    </section>
+
+
+
+    <section id="recetas">
+      <h2>RECETAS SALUDABLES</h2>
+      <p>Prueba estas recetas fáciles y nutritivas:</p>
+
+      <img src="assets/images/IMAGE10.JPG" alt="assets/images/IMAGE10.JPG">
+
+<div class="modal-dialog modal-dialog-centered">
+  
+</div>
+
+
+      
+      <!--AQUI ESTAN LAS FILAS Y COLUMNAS-->
+      <div class="row"> <!--crear una class row para hacer columnas y las 3 recetas salgan una al lado de la otra-->
+        <div class="col">
+          <div class="card" style="width: 20rem;">
+            <img src="assets/images/IMAGE07.JPG" class="card-img-top" alt="assets/images/IMAGE07.JPG">
+            <div class="card-body">
+              <h5 class="card-title">ENSALADA DE QUINOA</h5>
+              <h4 class="card-text"> Con vegetales frescos.</h4>
+              <li><a href="https://www.pequerecetas.com/alimentacion/alimentos/quinoa-que-es-preparacion/">VER RECETA</a>
+
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 20rem;">
+            <img src="assets/images/IMAGE08.JPG" class="card-img-top" alt="assets/images/IMAGE08.JPG">
+            <div class="card-body">
+              <h5 class="card-title">SMOOTHIE DE FRUTAS</h5>
+              <h4 class="card-text"> Mezclando frutas.</h4>
+              <li><a href="https://www.pequeocio.com/receta/5-recetas-smoothies-fruta/">VER RECETA</a>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid gap-0 column-gap-3">
+        <div class="p-2 g-col-6"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 20rem;">
+            <img src="assets/images/IMAGE09.JPG" class="card-img-top" alt="assets/images/IMAGE09.JPG">
+            <div class="card-body">
+              <h5 class="card-title">SALMÓN AL HORNO</h5>
+              <h4 class="card-text"> Con acompañamiento.</h4>
+              <li><a href="https://www.directoalpaladar.com/recetas-de-pescados-y-mariscos/salmon-al-horno-la-receta-mas-facil-del-mundo">VER RECETA</a>
+              </div>
+          </div>
+          
+        </div>
+      </div>
+      </div>
+
+      <div class="grid gap-0 column-gap-3">
+        <div class="p-2 g-col-6"></div>
+      </div>
+
+      <section id="plan de ejercicios">
+        <h2>PLAN DE EJERCICIOS</h2>
+
+        <p>Los planes de entrenamiento son modelos sistematizados, detallados y personalizados que determinan la actividad física correcta y eficiente para cada persona.Debe incluir:</p>
+        <img src="assets/images/IMAGE12.JPG" alt="assets/images/IMAGE12.JPG">
+ 
+        <!-- esto es para separar un poco las casillas-->
+
+ <div class="grid gap-0 column-gap-3">
+  <div class="p-2 g-col-6"></div>
+  
+
+<!-- BOTON QUE TE LLEVA DIRECTAMENTE AL MODAL PARA EL PLAN DE ENTRENAMIENTO -->
+<button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  ¿QUE DEBE INCLUIR MI PLAN DE ENTRENAMIENTO?</button>
+
+ <!-- esto es para separar un poco las casillas-->
+
+ <div class="grid gap-0 column-gap-3">
+  <div class="p-2 g-col-6"></div>
+  
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h7 class="modal-title fs-5" id="exampleModalLabel">UN BUEN PLAN DE ENTRENAMINETO DEBE TENER:</h7>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Objetivos claros y realistas.
+        Una variedad de ejercicios para trabajar todos los grupos musculares.
+        Supervisión.
+        Una rutina de alimentación      
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- BOTON QUE TE LLEVA DIRECTAMENTE AL MODAL PARA GUIA DE ENTRENAMIENTO -->
+<button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal02">
+ GUIA PRACTICA DE ENTRENAMIENTO</button>
+
+
+ <!-- esto es para separar un poco las casillas-->
+
+ <div class="grid gap-0 column-gap-3">
+  <div class="p-2 g-col-6"></div>
+
+<!-- Modal cambiamos del anterior el id y el data-bs-target para que nos lea un modal diferente-->
+<div class="modal fade" id="exampleModal02" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h7 class="modal-title fs-5" id="exampleModalLabel02">GUIA PRÁCTICA DE ENTRENAMIENTO</h7>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Un plan de entrenamiento tipo tiene una duración aproximada de entre 16 y 20 semanas. Cada semana consistirá en una combinación de carreras más cortas y una carrera semanal más larga que se irá haciendo cada vez más larga a lo largo del entrenamiento. También deberás tener al menos dos días semanales de descanso, y a veces mezclarlo con dos ejercicios sin impacto, como natación o ciclismo. Las últimas tres semanas antes de la carrera deberás  la intensidad del entrenamiento para dejar tiempo a tu cuerpo para reponerse antes del gran día.   </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- BOTON QUE TE LLEVA DIRECTAMENTE AL MODAL de diseñar tu propio plan -->
+<button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModaldiseñarplan">
+  DISEÑA TU PLAN DE ENTRENAMINETO</button>
+ 
+ <!-- Modal cambiamos del anterior el id y el data-bs-target para que nos lea un modal diferente-->
+ <div class="modal fade" id="exampleModaldiseñarplan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h8 class="modal-title fs-5" id="exampleModalLabel">PARA CONSEGUIR EL OBJETIVO LO IDEAL ES TENER DISEÑADO UN PLAN DE ENTRENAMIENTO</h>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+AQUI SE PUEDE VER UN EJEMPLO DE PLAN DE ENTRENAMIENTO
+
+  <!--  tabla con ejemplo de plan-->
+
+  <table class="table table-dark table-striped-columns">
+    <thead>
+      <tr>
+        <th scope="col">semana</th>
+        <th scope="col">piernas</th>
+        <th scope="col">brazos</th>
+        <th scope="col">pecho</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>5 min</td>
+        <td>7 min</td>
+        <td>6 repetic.</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>7 min</td>
+        <td>10 min</td>
+        <td>9 repeticiones</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2">15 min</td>
+        <td>15 repeticiones</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+        <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+       </div>
+     </div>
+   </div>
+ </div>
+      </section>
+    </section>
+  </main>
+  <div class="grid gap-0 column-gap-3">
+    <div class="p-2 g-col-6"></div>
+  </div>
+  <!-- aqui para pedir más informacion un formulario -->
+  <h2>ESCRÍBENOS PARA QUE TE GENEREMOS TU PROPIO PLAN DE ENTRENAMINETO</h2>
+  <p>Si lo deseas envíanos un correo para que te hagamos un plan de entrenamineto personalizado a tu medida, símplemente nos indicas tu objetico a conseguir y nosotros haremos el resto.</p>
+
+
+
+  <div class="container mt-8">
+    <h8 class="mb-4">Pídenos tu plan personalizado</h8>
+    <form>
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Introduce tu nombre">
+        </div>
+        <div class="form-group">
+            <label for="email">Correo Electrónico</label>
+            <input type="email" class="form-control" id="email" placeholder="Introduce tu correo electrónico">
+        </div>
+        <div class="form-group">
+            <label for="objetivo">Dinos tu objetivo a conseguir</label>
+            <input type="objetivo" class="form-control" id="objetivo" placeholder="objetivo a conseguir">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
+
+  <!-- pie de página -->
+  <footer>
+
+  <h6>&copy; 2025 Alimentación Saludable. Todos los derechos reservados.</p>
+            
+  </footer>
+
+
+  <!-- Vinculando Bootstrap JS y Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js">
+
+  </script>
+
+</body>
+
+</html>
